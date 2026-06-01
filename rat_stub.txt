@@ -56,7 +56,7 @@ def Ra3Yy_embed(text, color=#000000, thumbnail=True):
     embed = discord.Embed(title="Ra3Yy • TERMINAL", description=text, color=color)
     if thumbnail:
         embed.set_thumbnail(url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg")
-    embed.set_footer(text="Ra3Yy Multitool • https://github.com/0xR3Yy", icon_url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg"")
+    embed.set_footer(text="Ra3Yy Multitool • https://github.com/0xR3Yy", icon_url="https://i.ibb.co/wNwkN4k3/kitty-icon.jpg")
     return embed
 
 
